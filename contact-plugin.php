@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Contact Form update
  * Description: Test plugin.
- * Version: 1.0
+ * Version: 1.1
  * Author: Sohan
  * License: GPL2
  * Text Domain: contact-plugin
