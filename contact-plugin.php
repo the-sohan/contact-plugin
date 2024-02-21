@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Contact Form update
  * Description: Test plugin.
- * Version: 1.1
+ * Version: 1.1.1.1.1
  * Author: Sohan
  * License: GPL2
  * Text Domain: contact-plugin
@@ -24,6 +24,10 @@ function carbon_fields_boot_plugin() {
 	if ( is_admin() ) {
 		\Carbon_Fields_Plugin\Libraries\Plugin_Update_Warning\Plugin_Update_Warning::boot();
 	}
+    
+    if ( true ) {
+        echo 'this is test';
+    }
 }
 
 
